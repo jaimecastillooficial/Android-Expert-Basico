@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">androidmaster</string>
+
+    <string name="male">"Hombre"</string>
+    <string name="female">"Mujer"</string>
+    <string name="height">Altura</string>
+    <string name="weight">Peso</string>
+    <string name="calculate">Calcular</string>
+    <string name="result">Resultado</string>
+    <string name="recalculate">Re-Calcular</string>
+    <!--IMC App-->
+    <string name="low_weight">Bajo peso</string>
+    <string name="normal_weight">Peso normal</string>
+    <string name="overweight">Sobrepeso</string>
+    <string name="obesity">Obesidad</string>
+
+    <string name="description_low_weight">Estas por debajo de lo optimo para tu peso y tamaño</string>
+    <string name="description_normal_weight">Estas en lo optimo para tu peso y tamaño</string>
+    <string name="description_overweight">Estas por encima de lo optimo para tu peso y tamaño</string>
+    <string name="description_obesity">Estas MUY por encima de lo optimo para tu peso y tamaño</string>
+
+    <!--TODOApp-->
+    <string name="todo_title">Bienvenido, Jaime</string>
+    <string name="todo_categories">Categorias:</string>
+    <string name="todo_tasks">Tareas:</string>
+    <string name="todo_dialog_add_task">Añade una tarea</string>
+    <string name="todo_dialog_category_business">Negocios</string>
+    <string name="todo_dialog_category_personal">Personal</string>
+    <string name="todo_dialog_category_other">Otros</string>
+    <string name="todo_dialog_add_task_button">Crear Tarea</string>
+
+
+</resources>

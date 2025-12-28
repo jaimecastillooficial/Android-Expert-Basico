@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingHorizontal="16dp"
+    android:paddingVertical="40dp"
+
+
+    tools:context=".MenuActivity"
+    android:background="@color/background_app">
+
+    <TextView
+        android:id="@+id/viewTitle"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:background="@color/purple_700"
+        android:text="Aplicaciones"
+        android:gravity="center"
+
+        android:textColor="@color/white"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/btnIMC"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+    </TextView>
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnIMC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="100dp"
+        android:background="@color/purple_500"
+        android:text="App IMC"
+        android:textColor="@color/white"
+        app:layout_constraintTop_toBottomOf="@+id/viewTitle">
+
+    </androidx.appcompat.widget.AppCompatButton>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnTODO"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:background="@color/purple_500"
+        android:text="TO-DO App"
+        android:textColor="@color/white"
+        app:layout_constraintTop_toBottomOf="@+id/btnIMC">
+
+    </androidx.appcompat.widget.AppCompatButton>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnSuperHero"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:background="@color/purple_500"
+        android:text="SuperHero App"
+        android:textColor="@color/white"
+        app:layout_constraintTop_toBottomOf="@+id/btnTODO">
+
+    </androidx.appcompat.widget.AppCompatButton>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnSettings"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:background="@color/purple_500"
+        android:text="Settings"
+        android:textColor="@color/white"
+        app:layout_constraintTop_toBottomOf="@+id/btnSuperHero">
+
+    </androidx.appcompat.widget.AppCompatButton>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
