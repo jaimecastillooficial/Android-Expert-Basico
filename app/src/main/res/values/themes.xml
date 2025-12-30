@@ -36,4 +36,11 @@
         <item name="android:layout_marginHorizontal" tools:targetApi="26">32dp</item>
 
     </style>
+
+    <style name="splashTheme" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:windowBackground">@drawable/splashscreen</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+
+    </style>
 </resources>
